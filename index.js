@@ -115,10 +115,10 @@ Baby.prototype.play = function(favoriteToy){
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. This can be globally defined (we are not aiming to do this) in strict mode it returns 'undefined', when NOT in strict mode it returns the global object ie: window
+    2. this can be defined inside a new function
+    3. This can be defined in a function called using .call() || .apply() || .bind()
+    4. This can be defined in a method
   */
   
   
